@@ -5,7 +5,8 @@
         "node": true
     },
     "globals": {
-        "io": true
+        "io": true,
+        "createjs": true
     },
     "parserOptions": {
         "ecmaVersion": "latest",

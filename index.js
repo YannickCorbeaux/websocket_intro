@@ -39,10 +39,10 @@ wsServer.on("connection", (userSocket) => {
     userSocket,
     user,
     users,
-    wsServer
+    wsServer,
   });
 });
 
 httpServer.listen(3000, () => {
-  console.log(`👽👽 Server launched on port ${PORT}`);
+  console.log(`Server launched on port ${PORT}`);
 });
