@@ -1,0 +1,23 @@
+{
+  "name": "websocket_intro",
+  "version": "1.0.0",
+  "description": "Découverte du websocket",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-plugin-import": "^2.29.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.4"
+  }
+}
